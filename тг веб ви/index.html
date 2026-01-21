@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <title>VISKO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <canvas id="bg" aria-hidden="true"></canvas>
+
+    <a class="topMark" href="#top" aria-label="VISKO mark">V</a>
+
+    <div id="smooth">
+      <main class="shell" aria-label="VISKO">
+        <section class="hero" id="top" aria-label="Главный экран">
+          <h1 class="logo" data-text="VISKO">VISKO</h1>
+          <nav class="contacts" aria-label="Контакты">
+            <a class="icon" href="https://t.me/viskocod" target="_blank" rel="noreferrer" aria-label="Telegram">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.8 4.4c.3-1.3-1.1-2.3-2.3-1.8L3.8 9c-1.3.5-1.2 2.4.2 2.8l4.2 1.4 9.8-7.4c.5-.4 1.1.3.7.7l-8.3 8.1-.3 4.2c.2.9 1.2 1.1 1.8.6l2.6-2.6 4 2.9c1 .6 2.2 0 2.4-1.1l2.9-14.2Z" fill="currentColor" />
+              </svg>
+            </a>
+            <a class="icon" href="https://www.instagram.com/viskobb?igsh=dWY1YnM2dmc1dHFy" target="_blank" rel="noreferrer" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4A5.8 5.8 0 0 1 16.2 22H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Z" stroke="currentColor" stroke-width="1.2" />
+                <path d="M12 16.2A4.2 4.2 0 1 0 12 7.8a4.2 4.2 0 0 0 0 8.4Z" stroke="currentColor" stroke-width="1.2" />
+                <path d="M17.2 6.9h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </a>
+          </nav>
+        </section>
+
+        <section class="profile" aria-label="Bio / Life Profile">
+          <header class="profileHead">
+            <div class="profileTitle">Bio / Life Profile</div>
+            <div class="profileMeta">access: limited</div>
+          </header>
+          <div class="profileBody" role="document">
+            <div class="row"><span class="k">name</span><span class="sep">:</span><span class="v">Visko</span></div>
+            <div class="row"><span class="k">age</span><span class="sep">:</span><span class="v">**</span></div>
+            <div class="row"><span class="k">number</span><span class="sep">:</span><span class="v">+7777**********</span></div>
+            <div class="row"><span class="k">location</span><span class="sep">:</span><span class="v">paris</span></div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="void" aria-label="Низ страницы">
+        <div class="voidLine">not for everyone</div>
+      </footer>
+    </div>
+
+    <script src="./main.js" defer></script>
+  </body>
+</html>
